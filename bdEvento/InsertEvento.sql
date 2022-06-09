@@ -1,0 +1,18 @@
+use bdEvento
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-08-15', 'Lucas Hype', '2001-02-05', 'M', 'SIM', 'hypelucashypado@hotmail.com', '(777) 977751687')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-07-17', 'Jonatas', '2003-04-08', 'M', 'SIM', 'jonatinhasgameplays@gmail.com', '(11) 926826012')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-09-13', 'Ana Maria dos Santos Almoço', '2004-03-28', 'F', 'NAO', 'eaemarianaaa@gmail.com', '(12) 977139884')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-11-10', 'Patriarca dos Santos', '2002-10-23', 'M', 'SIM', 'tudolotado@hotmail.com', '(11) 927562756')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-10-05', 'Bill Gates', '1999-07-19', 'M', 'SIM', 'souricokkkj@gmail.com', '(11) 926196993')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-08-01', 'Tony Stark', '2004-06-30', 'M', 'SIM', 'eusouohomemdeferro@gmail.com', '(47) 999999999')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-07-20', 'Cristiano Ronaldo', '1998-06-29', 'M', 'SIM', 'soulindo@hotmail.com', '(700) 953509128')
+	INSERT INTO tbConfirmacao(dtConfirmacao, nomeConvidado, dnConvidado, sexoConvidado, StatusConvidado, emailConvidado, foneConvidado)
+		VALUES ('2020-06-03', 'Dean Winchester', '2001-11-11', 'M', 'NAO', 'kkeaeluci@gmail.com', '(666) 966666666')
+	select * from tbConfirmacao

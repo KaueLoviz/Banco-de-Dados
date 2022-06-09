@@ -1,0 +1,48 @@
+use bdExerc01
+go
+	/*Tabela Func*/
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Pedro Geromel', 'SP', 34, 2)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Lionel Messi', 'RJ', 32, 3)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Raffa Moreira', 'SP', 27, 6)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Eike Batista', 'BA', 38, 0)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Keanu Reeves', 'RJ', 19, 1)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Felipe Neto', 'CE', 28, 0)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Steve Rogers', 'AC', 26, 1)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Rick Grimes', 'BA', 34, 4)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Tom Cruise', 'CE', 34, 0)
+	insert into tbFunc(nomeFunc, ufFunc, idadeFunc, qntFilhosFunc)
+		values('Natasha Romanoff', 'SP', 25, 1)
+
+	/*Tabela Funcional*/
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(1, 'Programador', 10500, 5, 3, 1)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(2, 'Gerente', 10000, 2, 4, 0)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(3, 'Programador', 1000, 2, 1, 0)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(4, 'Designer', 15000, 2, 3, 1)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(5, 'Analista', 250000, 7, 4, 1)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(6, 'Programador', 150, 8, 7, 0)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(7, 'Programador', 2500, 4, 2, 1)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(8, 'Analista', 10000, 5, 2, 0)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(9, 'Gerente', 20000, 7, 3, 0)
+	insert into tbFuncional(codFunc, cargoFuncional, salarioFuncional, tmpEmpresaFuncional, tmpCargoFuncional, sindicalizadoFuncional)
+		values(10, 'Designer', 13800, 9, 3, 1)
+
+select * from tbFunc
+select * from tbFuncional
